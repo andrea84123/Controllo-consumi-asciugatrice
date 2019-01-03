@@ -16,7 +16,7 @@
 --Change the values below to reflect to your own setup
 local switch_washingmachine   = 'Stato asciugatrice'         --Name of virtual switch that will show the state of the washingmachine (on/off)
 local washer_status_uservar   = 'washingmachine_status'
-local energy_consumption      = 'Asciugatrice watt2'         --Name of Z-Wave plug that contains actual consumption of washingmachine (in Watts)
+local energy_consumption      = 'Asciugatrice watt'         --Name of Z-Wave plug that contains actual consumption of washingmachine (in Watts)
 local washer_counter_uservar  = 'washingmachine_counter'   --Name of the uservariable that will contain the counter that is needed
 local idle_minutes            = 5                      --The amount of minutes the consumption has to stay below the 'consumption_lower' value
 local consumption_upper       = 300                     --If usage is higher than this value (Watts), the washingmachine has started
